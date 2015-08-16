@@ -84,7 +84,7 @@ function bistre(opts) {
 
 function pad(str, n) {
   str = String(str)
-  while (str.length < 5) {
+  while (str.length < n) {
     str = ' ' + str
   }
   return str
